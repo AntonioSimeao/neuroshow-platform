@@ -33,7 +33,7 @@
 
 **Description:**  
 Neuroshow is an educational platform designed to enhance learning through flashcards and quizzes with a spaced repetition system.  
-Users can create flashcards with images, assign difficulty levels, and receive mobile notifications to review contsent at optimal intervals for memory retention.
+Users can create flashcards with images, assign difficulty levels, and receive mobile notifications to review content at optimal intervals for memory retention.
 
 This project was developed during my undergraduate studies in Production Engineering at the **Federal University of Paraíba (UFPB)**, in collaboration with the research group **NESMEP (Núcleo de Estudos em Saúde Mental e Psicometria)**.  
 Learn more about NESMEP [on Instagram](https://www.instagram.com/nesmep.ufpb/).
