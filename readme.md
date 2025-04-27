@@ -1,8 +1,32 @@
 # Neuroshow Platform
 
+<p align="center">
+  <img src="assets/logo-neuroshow-of.png" alt="Neuroshow Logo" width="300"/>
+</p>
+
+<p align="center">
+  <a href="https://apps.apple.com/br/app/neuroshow/id6453167626" target="_blank">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" width="180"/>
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.neuroshow.neuroshow&pcampaignid=web_share" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" width="200"/>
+  </a>
+</p>
+
+<p align="center">
+  or access at: <a href="https://neuroshow.com.br" target="_blank"><strong>neuroshow.com.br</strong></a>
+</p>
+
+---
+
 **Description:**  
 Neuroshow is an educational platform designed to enhance learning through flashcards and quizzes with a spaced repetition system.  
-Users can create flashcards with images, set difficulty levels, and receive review notifications based on their performance.
+Users can create flashcards with images, assign difficulty levels, and receive mobile notifications to review contsent at optimal intervals for memory retention.
+
+This project was developed during my undergraduate studies in Production Engineering at the **Federal University of Paraíba (UFPB)**, in collaboration with the research group **NESMEP (Núcleo de Estudos em Saúde Mental e Psicometria)**.  
+Learn more about NESMEP [on Instagram](https://www.instagram.com/nesmep.ufpb/).
+
+---
 
 **Difficulty-based review logic:**
 
@@ -37,6 +61,17 @@ Notifications are sent directly to the user's mobile device, promoting efficient
 - Designed and implemented the cloud notification system based on Redis and RabbitMQ to handle scheduled flashcard reviews.
 - Integrated Firebase Authentication, Firestore Database, and Firebase Cloud Messaging (FCM) for user management and push notifications.
 - Created difficulty-based spaced repetition algorithms to enhance learning efficiency.
+
+## Notification System Architecture
+
+The flashcard review notifications are handled using a combination of Redis and RabbitMQ:
+
+<p align="center">
+  <img src="assets/redis-rabbitmq.png" alt="Redis and RabbitMQ Architecture" width="600"/>
+</p>
+
+- Redis stores scheduled notifications.
+- RabbitMQ dispatches them to Firebase Cloud Messaging (FCM) when the time is right.
 
 ## Private Repository Notice
 
