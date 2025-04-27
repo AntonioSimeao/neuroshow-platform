@@ -5,6 +5,18 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/>
+</p>
+
+<p align="center">
   <a href="https://apps.apple.com/br/app/neuroshow/id6453167626" target="_blank">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" width="180"/>
   </a>
@@ -61,6 +73,13 @@ Notifications are sent directly to the user's mobile device, promoting efficient
 - Designed and implemented the cloud notification system based on Redis and RabbitMQ to handle scheduled flashcard reviews.
 - Integrated Firebase Authentication, Firestore Database, and Firebase Cloud Messaging (FCM) for user management and push notifications.
 - Created difficulty-based spaced repetition algorithms to enhance learning efficiency.
+
+## Deployment and Infrastructure
+
+- The web application and backend services are deployed on a **Linux VPS**.
+- **Nginx** is used as a reverse proxy and for SSL termination.
+- **PM2** is used to manage Node.js backend processes with auto-restart and log monitoring.
+- Database and cloud messaging services are handled by **Firebase**.
 
 ## Notification System Architecture
 
